@@ -1,0 +1,5 @@
+.gallery__artist {
+  display: grid;
+  align-content: end;
+  grid-area: artist;
+}
