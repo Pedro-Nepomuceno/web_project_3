@@ -4,9 +4,26 @@
   font-size: 30px;
   font-weight: normal;
   line-height: 36px;
-  margin-bottom: 64px;
-  margin-top: 0;
+  padding: 0 280px 64px;
+  margin: 0;
   width: 720px;
   height: 72px;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    margin: 0;
+    padding: 0 24px 36px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .header__subtitle {
+    margin: 0;
+    padding: 0 16px 40px;
+    width: 288px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

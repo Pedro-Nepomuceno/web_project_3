@@ -9,3 +9,19 @@
   padding-right: 412px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__text {
+    margin: 0;
+    padding: 40px 24px 10px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .header__text {
+    margin: 0;
+    padding: 40px 16px 10px;
+    width: 288px;
+    height: 240px;
+    line-height: 30px;
+  }
+}
