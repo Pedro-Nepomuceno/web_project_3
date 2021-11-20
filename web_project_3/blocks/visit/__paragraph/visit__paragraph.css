@@ -1,0 +1,8 @@
+.visit__paragraph {
+  display: flex;
+  flex-direction: column;
+  width: 656px;
+  height: 254px;
+  padding: 243px 264px;
+  text-align: center;
+}

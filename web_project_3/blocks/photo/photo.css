@@ -1,0 +1,7 @@
+/*.photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+}
