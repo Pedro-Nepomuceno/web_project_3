@@ -1,0 +1,28 @@
+.header__description {
+  font-family: Inter;
+  font-size: 54px;
+  line-height: 58px;
+  width: 785px;
+  height: 116px;
+  padding: 92px 347px 40px 148px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__description {
+    margin: 0;
+    padding: 88px 24px 40px;
+    width: 720px;
+    height: 174px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .header__description {
+    margin: 0;
+    padding: 64px 16px 40px;
+    width: 288px;
+    height: 140px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
