@@ -1,4 +1,4 @@
-.gallery__heading_rio {
+.gallery__heading-rio {
   font-family: Inter;
   font-size: 60px;
   line-height: 76px;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .gallery__heading_rio {
+  .gallery__heading-rio {
     font-size: 38px;
     line-height: 46px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .gallery__heading_rio {
+  .gallery__heading-rio {
     font-size: 25px;
     line-height: 35px;
   }

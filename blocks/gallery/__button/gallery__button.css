@@ -1,9 +1,13 @@
 .gallery__button {
   background: #0278fe;
   color: #ffffff;
-  width: 248px;
-  height: 48px;
+  width: fit-content;
+  height: max-content;
   font-size: 18px;
   grid-area: button;
   border-radius: 4px;
+  padding: 13px 20px;
+  border-style: none;
+  font-weight: 600;
+  font-size: 18px;
 }

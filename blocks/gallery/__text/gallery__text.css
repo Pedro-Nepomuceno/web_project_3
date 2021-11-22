@@ -1,4 +1,4 @@
-.gallery__paragraph_text {
+.gallery__text {
   margin: 0;
   font-family: Inter;
   font-style: normal;
@@ -6,6 +6,6 @@
   line-height: 29px;
   padding-bottom: 25px;
 }
-.gallery__paragraph_text:last-child {
+.gallery__text:last-child {
   padding-bottom: 0;
 }
