@@ -5,6 +5,7 @@
   line-height: 100px;
   text-align: center;
   padding-bottom: 32px;
+  margin: 0;
 }
 @media screen and (max-width: 1024px) {
   .header__title {

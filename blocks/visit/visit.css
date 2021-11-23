@@ -14,6 +14,10 @@
   margin-top: 92px;
   margin-bottom: 92px;
 }
+
+.visit:hover {
+  opacity: 0.2;
+}
 @media screen and (max-width: 1024px) {
   .visit {
     max-width: 1024px;
