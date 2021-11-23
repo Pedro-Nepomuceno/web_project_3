@@ -1,6 +1,14 @@
 .visit__paragraph {
   display: flex;
   flex-direction: column;
-  padding: 243px 264px;
+  padding-top: 243px;
+  padding-bottom: 243px;
   text-align: center;
+}
+
+@media screen and (max-width: 544px) {
+  .visit__paragraph {
+    padding-bottom: 46px;
+    padding-top: 46px;
+  }
 }

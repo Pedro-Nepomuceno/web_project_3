@@ -5,3 +5,9 @@
   line-height: 1.4;
   margin: 0;
 }
+@media screen and (max-width: 544px) {
+  .visit__paragraph-text {
+    font-size: 14;
+    line-height: 16px;
+  }
+}

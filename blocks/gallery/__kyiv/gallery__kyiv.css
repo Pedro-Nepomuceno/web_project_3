@@ -8,6 +8,7 @@
     "image text"
     "button text";
 }
+
 @media screen and (max-width: 1024px) {
   .gallery__kyiv {
     padding-bottom: 72px;
