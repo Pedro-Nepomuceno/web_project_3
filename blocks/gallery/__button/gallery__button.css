@@ -11,3 +11,6 @@
   font-weight: 600;
   font-size: 18px;
 }
+.gallery__button:hover {
+  background-color: #0063d2;
+}

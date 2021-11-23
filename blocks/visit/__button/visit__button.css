@@ -12,3 +12,6 @@
   align-self: center;
   padding: 13px 20px;
 }
+.visit__button:hover {
+  background-color: #0063d2;
+}

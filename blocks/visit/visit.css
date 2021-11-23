@@ -1,6 +1,8 @@
 .visit {
+  position: relative;
   background-color: #2a2c2f;
   display: flex;
+  z-index: 0;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
@@ -15,9 +17,22 @@
   margin-bottom: 92px;
 }
 
-.visit:hover {
-  opacity: 0.2;
+.visit::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  min-height: 100%;
+  background: #2a2c2f;
+  transition: 0.4s;
+  opacity: 0.3;
+  z-index: -1;
 }
+
+.visit:hover::before {
+  background: #2a2c2f;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
   .visit {
     max-width: 1024px;
