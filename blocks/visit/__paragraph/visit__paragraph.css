@@ -6,9 +6,6 @@
   text-align: center;
 }
 
-.visit__paragraph {
-}
-
 @media screen and (max-width: 544px) {
   .visit__paragraph {
     padding-bottom: 46px;
