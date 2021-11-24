@@ -4,12 +4,6 @@
   padding: 34px 0 90px;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__logo {
-    padding: 34px 0 90px;
-  }
-}
-
 @media screen and (max-width: 544px) {
   .header__logo {
     max-width: 200px;

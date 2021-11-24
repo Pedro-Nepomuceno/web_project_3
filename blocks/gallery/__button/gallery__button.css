@@ -13,3 +13,11 @@
 .gallery__button:hover {
   background-color: #0063d2;
 }
+
+@media screen and (max-width: 544px) {
+  .gallery__button {
+    width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

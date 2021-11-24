@@ -10,7 +10,8 @@
 }
 @media screen and (max-width: 1024px) {
   .gallery__wales {
-    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: none;
     grid-gap: 48px 28px;
     padding-bottom: 72px;
   }

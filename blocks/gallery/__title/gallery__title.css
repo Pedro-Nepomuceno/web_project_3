@@ -1,10 +1,11 @@
 .gallery__title {
-  font-family: Inter;
-  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-size: 12px;
   line-height: 15px;
   padding-bottom: 8px;
   margin: 0;
   color: #aaaaaa;
   text-transform: uppercase;
+  letter-spacing: 12%;
 }

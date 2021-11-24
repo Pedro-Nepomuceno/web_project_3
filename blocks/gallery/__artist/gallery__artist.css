@@ -3,3 +3,9 @@
   align-content: end;
   grid-area: artist;
 }
+
+@media screen and (max-width: 544px) {
+  .gallery__artist {
+    padding: 0 16px 0;
+  }
+}

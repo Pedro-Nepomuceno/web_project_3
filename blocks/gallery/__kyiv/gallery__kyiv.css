@@ -12,8 +12,9 @@
 @media screen and (max-width: 1024px) {
   .gallery__kyiv {
     padding-bottom: 72px;
-    grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: none;
   }
 }
 @media screen and (max-width: 544px) {

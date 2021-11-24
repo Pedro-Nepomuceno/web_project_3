@@ -1,17 +1,17 @@
 .intro__paragraph {
   max-width: 720px;
-  max-height: 156px;
-  font-family: Inter;
-  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+  margin: 0;
+  padding-top: 32px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__paragraph {
-    margin: 0;
-    padding: 32px 24px 0px;
+    padding: 32px 0 0;
   }
 }
 @media screen and (max-width: 544px) {
@@ -19,7 +19,5 @@
     margin: 0;
     padding: 32px 16px 0px;
     max-width: 288px;
-    max-height: 390px;
-    line-height: 26px;
   }
 }
