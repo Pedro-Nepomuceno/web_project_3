@@ -1,13 +1,18 @@
 .visit__paragraph-text {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
+  margin: 32px auto;
+  max-width: 280px;
+  padding: 0;
   font-size: 18px;
-  line-height: 1.4;
-  margin: 0;
+  line-height: 1.2;
+  text-align: center;
 }
+
 @media screen and (max-width: 544px) {
   .visit__paragraph-text {
+    width: 100%;
     font-size: 14px;
     line-height: 16px;
+    max-width: 200px;
+    margin: 16px auto;
   }
 }

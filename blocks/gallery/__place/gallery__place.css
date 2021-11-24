@@ -1,5 +1,6 @@
-.gallery__rio {
+.gallery__place {
   display: grid;
+  padding-bottom: 80px;
   grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
@@ -7,15 +8,17 @@
     "image text"
     "button text";
 }
+
 @media screen and (max-width: 1024px) {
-  .gallery__rio {
+  .gallery__place {
+    padding-bottom: 72px;
     grid-gap: 48px 28px;
     grid-template-rows: auto auto 1fr;
     grid-template-columns: none;
   }
 }
 @media screen and (max-width: 544px) {
-  .gallery__rio {
+  .gallery__place {
     grid-template-areas:
       "title"
       "artist"
@@ -25,5 +28,9 @@
       "button";
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    padding-bottom: 50px;
   }
+}
+.gallery__place:last-child {
+  padding-bottom: 0;
 }

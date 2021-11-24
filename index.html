@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>From homeland to homeland</title>
   </head>
-  <body style="margin: 0">
-    <div class="page">
-      <header class="header">
-        <img class="header__logo" src="./images/logo.png" alt="logo" />
-        <h1 class="header__title">From Homeland to Homeland</h1>
-        <p class="header__subtitle">
+  <body class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/logo.png" alt="logo" />
+    </header>
+    <main>
+      <section class="lead">
+        <h1 class="lead__title">From Homeland to Homeland</h1>
+        <p class="lead__subtitle">
           An epic journey from Kentucky to Burundi through Wales and Ukraine
         </p>
         <img
-          class="header__image"
+          class="lead__image"
           src="./images/__first-image.jpg"
           alt="beach image"
         />
-      </header>
+      </section>
       <section class="intro">
         <h2 class="intro__description">
           Know the places your online pals come from a little better
@@ -45,49 +47,49 @@
       <section class="photo">
         <div class="photo-grid">
           <img
-            class="photo-grid__first-row"
+            class="photo-grid__image"
             src="./images/_first-row.png"
             alt="beach"
           />
           <img
-            class="photo-grid__second-row"
+            class="photo-grid__image"
             src="./images/_second-row.png"
             alt="beach"
           />
           <img
-            class="photo-grid__third-row"
+            class="photo-grid__image"
             src="./images/_third-row.png"
             alt="church at a sunset"
           />
           <img
-            class="photo-grid__fourth-row"
+            class="photo-grid__image"
             src="./images/_fourth-row.png"
             alt="city bridge and ocean"
           />
           <img
-            class="photo-grid__fifth-row"
+            class="photo-grid__image"
             src="./images/_1-second-line.png"
             alt="landscape"
           />
           <img
-            class="photo-grid__sixth-row"
+            class="photo-grid__image"
             src="./images/_2-second-line.png"
             alt="bush and green sign"
           />
           <img
-            class="photo-grid__seventh-row"
+            class="photo-grid__image"
             src="./images/_3-second-line.png"
             alt="man standing in front of an dwelling place"
           />
           <img
-            class="photo-grid__eighth-row"
+            class="photo-grid__image"
             src="./images/_4-second-line.png"
             alt="houses in the mountain"
           />
         </div>
       </section>
       <section class="gallery">
-        <div class="gallery__kyiv">
+        <article class="gallery__place">
           <h2 class="gallery__heading">Kyiv, Ukraine</h2>
           <div class="gallery__artist">
             <span class="gallery__title">Artist</span>
@@ -96,7 +98,7 @@
             >
           </div>
           <img
-            class="gallery__image gallery__image_kyiv"
+            class="gallery__image"
             src="./images/ukraine.png"
             alt="Kyiv, Ukraine"
           />
@@ -120,14 +122,14 @@
             </p>
           </div>
           <button class="gallery__button">Buy this art as NFT</button>
-        </div>
-        <div class="gallery__wales">
+        </article>
+        <article class="gallery__place">
           <h2 class="gallery__heading">Cricieth, Wales</h2>
           <div class="gallery__artist">
             <span class="gallery__title">Artist</span>
             <span class="gallery__author">Steffan Warren, lead editor</span>
             <span class="gallery__author"
-              >Kseniya Glagoleva, spanroject manager</span
+              >Kseniya Glagoleva, project manager</span
             >
           </div>
           <img
@@ -154,8 +156,8 @@
             </p>
           </div>
           <button class="gallery__button">Buy this art as NFT</button>
-        </div>
-        <div class="gallery__usa">
+        </article>
+        <article class="gallery__place">
           <h2 class="gallery__heading">Berea, USA</h2>
           <div class="gallery__artist">
             <span class="gallery__title">Artist</span>
@@ -188,9 +190,9 @@
             </p>
           </div>
           <button class="gallery__button">Buy this art as NFT</button>
-        </div>
+        </article>
 
-        <div class="gallery__burundi">
+        <article class="gallery__place">
           <h2 class="gallery__heading">Muramvya, Burundi</h2>
           <img
             class="gallery__image"
@@ -228,8 +230,8 @@
               rivers and streams which provide water around the country.
             </p>
           </div>
-        </div>
-        <div class="gallery__rio">
+        </article>
+        <article class="gallery__place">
           <h2 class="gallery__heading-rio">Rio de Janeiro, Brazil</h2>
           <img
             class="gallery__image"
@@ -239,9 +241,7 @@
           <button class="gallery__button">Buy this art as NFT</button>
           <div class="gallery__artist">
             <span class="gallery__title">Artist</span>
-            <span class="gallery__author"
-              >Natalia Dolgushina, content producer</span
-            >
+            <span class="gallery__author">Pedro Nepomuceno, Web developer</span>
           </div>
           <div class="gallery__paragraph">
             <p class="gallery__text">
@@ -262,21 +262,19 @@
               Landscapes between the Mountain and the Sea
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="visit">
-        <div class="visit__paragraph">
-          <h3 class="visit__paragraph-heading">Visit us</h3>
-          <p class="visit__paragraph-text">Year-round</p>
-          <p class="visit__paragraph-text">Practicum Art Gallery</p>
-          <p class="visit__paragraph-text">404 Tim Berners-Lee Ave</p>
-          <button class="visit__button">Buy ticket</button>
-        </div>
+        <h3 class="visit__paragraph-heading">Visit us</h3>
+        <p class="visit__paragraph-text">
+          Year-round Practicum&nbsp;Art&nbsp;Gallery
+          404&nbsp;Tim&nbsp;Berners-Lee&nbsp;Ave
+        </p>
+        <button class="visit__button">Buy ticket</button>
       </section>
-
-      <footer class="footer">
-        <p class="footer__text">© 2021. Pedro Nepomuceno</p>
-      </footer>
-    </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2021. Pedro Nepomuceno</p>
+    </footer>
   </body>
 </html>

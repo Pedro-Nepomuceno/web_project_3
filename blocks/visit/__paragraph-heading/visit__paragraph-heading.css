@@ -2,7 +2,6 @@
   font-family: "Inter", sans-serif;
   font-size: 72px;
   line-height: 76px;
-  padding-bottom: 32px;
   margin: 0;
 }
 
@@ -10,6 +9,5 @@
   .visit__paragraph-heading {
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 16px;
   }
 }

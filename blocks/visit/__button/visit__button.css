@@ -8,17 +8,10 @@
   width: fit-content;
   height: max-content;
   border-radius: 4px;
-  margin-top: 32px;
   align-self: center;
   padding: 13px 20px;
   border: none;
 }
 .visit__button:hover {
   background-color: #0063d2;
-}
-
-@media screen and (max-width: 544px) {
-  .visit__button {
-    margin-top: 16px;
-  }
 }
